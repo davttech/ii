@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Ubuntu:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -115,7 +115,8 @@ section .title::after {
 /*---    home section   ---*/
 .home {
     display: flex;
-    background: url("img/img9.jpg")no-repeat center;
+    background: url("img/img13.jpg")no-repeat center;
+    
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -231,8 +232,10 @@ section .title::after {
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover {
+    background: url("img/img14.jpeg")no-repeat;
+    /*
     background: crimson;
-    background: linear-gradient(0deg, crimson 0%, rgba(11,0,1,1) 63%);
+    background: linear-gradient(0deg, crimson 0%, rgba(11,0,1,1) 63%);*/
 }
 .services .serv-content .card .box {
     transition: all 0.3s ease;
@@ -418,7 +421,7 @@ section .title::after {
 }
 /*---    contact section   ---*/
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
